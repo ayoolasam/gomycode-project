@@ -1,0 +1,89 @@
+html {
+  overflow-x: hidden;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 213px;
+  border: none;
+  border-radius: 8px;
+  font-family: Montserrat;
+}
+.card:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+.card img {
+  width: 100%;
+  height: 144px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: 0.8s;
+}
+.card img:hover {
+  filter: brightness(0.9);
+}
+
+.card h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+.cardTexts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 400;
+  height: 18px;
+}
+
+.cardRating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recipeList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.listContainer {
+  /* width: 60%vw; */
+  margin-right: 40px;
+  
+}
+
+.recipeCatAndList {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.categories {
+  width: 25%;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.categories:hover {
+  cursor: pointer;
+}
+
+.search {
+  width: 60vw;
+  height: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
