@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav  style={{marginTop:"20px"}}className='flex flex-wrap w-[80%] h-24 justify-between items-center  mx-auto' >
           
           <div className='flex justify-around gap-[8vw]'>
-              <a href="/"><h1 className='logo text-red-500 font-extrabold'>Kocina</h1></a>
+              <a href="/"><h1 className='logo text-red-500 text-2xl font-extrabold'>Kocina</h1></a>
          
           <ul className='flex  items-center gap-[4vw] text-sm' >
           <a href="/"><li className=' transition-colors ease-in delay-150  text-2xl font-bold hover:text-red-500'>Home</li></a>

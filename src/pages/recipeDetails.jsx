@@ -22,9 +22,9 @@ const [details,setDetails]=useState(RecipeData[id])
         <img  style={{objectPosition:"center",objectFit:"cover"}} className="w-full  h-full   rounded-lg"src={details.image}/>
         </div>
 
-        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"40px"}}className=' sm:flex-col sm:w-full  py-4 items-center justify-center   '>
+        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"20px"}}className=' sm:flex-col sm:w-full  py-4 items-center justify-center   '>
           <h1 className='font-bold text-5xl mb-5'>{details.title}</h1>
-      <h2 className='mb-6 font-bold '>{details.description}</h2>
+      <h2 className='mb-6 font-bold text-2xl'>{details.description}</h2>
       <div  className='flex gap-8 h-36 mb-8 items-center  justify-center text-center w-full '>
         <div className='bg-white-200 flex-col items-center  justify-center rounded-lg  mr-4 text-xl '> <div className='text-center flex items-center justify-center '><CiClock1 className='w-10 ml-4 h-8 '/></div> <h2>Active time</h2>{details.activeTime}</div>
         <div className='bg-white-200  flex-col items-center rounded-lg mr-4  text-xl'> <div className='text-center flex items-center justify-center '> <FaClock  className='w-10 h-8 ml-4'/></div><h2>Total time</h2>{details.totalTime}</div>
