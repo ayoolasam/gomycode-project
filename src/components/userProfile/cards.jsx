@@ -70,7 +70,7 @@ const Card = () => {
     webKitBoxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)",
     boxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)", width:"170px", height:"170px",borderRadius:"5px",  marginBottom:"50px",backgroundSize:'cover'}}/>
 
-    < FaAlignJustify />
+    
      <h4 style={{color:"grey",padding:"10px",}}>Healthy Meal For You</h4>
     </div>
 
@@ -79,7 +79,7 @@ const Card = () => {
             <div  style={{display:"flex", margin:"10px", flexDirection:"column", alignItems:"center", justifyContent:"center",borderRadius:"5px", height:'300px', width:"180px", moZboxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)", webKitBoxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)", boxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)",}}>
              <img src="https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""  style={{ 
     boxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)", width:"170px", height:"170px",borderRadius:"5px", marginBottom:"50px", backgroundSize:'cover'}}/>
-     < FaAlignJustify />
+     
      <h4 style={{color:"grey",padding:"10px",}}>Healthy Meal For You</h4>
     </div>
   
@@ -87,7 +87,7 @@ const Card = () => {
 
              <div style={{display:"flex", margin:"10px", flexDirection:"column", alignItems:"center", justifyContent:"center", borderRadius:"5px", height:'300px', width:"180px", moZboxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)", webKitBoxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)", boxShadow: "1px 3px 14px -1px rgba(0,0,0,0.60)",}}>
              <img src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style={{  width:"170px", borderRadius:"5px", height:"170px", marginBottom:"50px", backgroundSize:'cover'}} />
-              < FaAlignJustify />
+               
              <h4 style={{color:"grey",padding:"10px",}}>Healthy Meal For You</h4>
             </div>
             </div>

@@ -22,7 +22,7 @@ const [details,setDetails]=useState(RecipeData[id])
         <img  style={{objectPosition:"center",objectFit:"cover"}} className="w-full  h-full   rounded-lg"src={details.image}/>
         </div>
 
-        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"20px" ,display:"flex", flexDirection:"column"}}className=' sm:flex-col sm:w-[100%] py-4  justify-center   md:min-w-full'>
+        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"20px" ,display:"flex", flexDirection:"column"}}className=' sm:flex-col sm:w-[100%] py-4  justify-center'>
          
     
         <h1 className='font-bold flex text-4xl mb-5'>{details.title}</h1>
