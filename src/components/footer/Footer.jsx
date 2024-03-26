@@ -9,7 +9,7 @@ const Footer = () => {
 
 <>
            <div className='flex justify-between items-center w-[80%] mx-auto pt-20'>
-            <a href=""><h1 className='logo text-red-500 text-2xl font-extrabold'>Kocina</h1></a>
+            <a href=""><h1 className='logo text-red-500 text-2xl font-extrabold italic'>Kocina</h1></a>
             <div className='flex justify-around items-center gap-2 '>
             <a href=""><FaInstagram /></a>
             <a href=""><FaTumblr /></a>
