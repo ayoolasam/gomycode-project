@@ -17,14 +17,16 @@ const [details,setDetails]=useState(RecipeData[id])
     return (
       //first component
     <div  className=' flex-col w-screen  w-screen  items-center '>
-      <div style={{width:"100%",justifyContent:"center",display:"flex" ,alignItems:"center"}}className='flex-wrap' >
+      <div style={{width:"100%",justifyContent:"center",display:"flex" }}className='flex-wrap ' >
         <div style={{ width:"600px",height:"500px"}} className='sm:w-full'>
         <img  style={{objectPosition:"center",objectFit:"cover"}} className="w-full  h-full   rounded-lg"src={details.image}/>
         </div>
 
-        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"20px"}}className=' sm:flex-col sm:w-full  py-4 items-center justify-center   '>
-          <h1 className='font-bold text-5xl mb-5'>{details.title}</h1>
-      <h2 className='mb-6 font-bold text-2xl'>{details.description}</h2>
+        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"20px" ,display:"flex", flexDirection:"column"}}className=' sm:flex-col sm:w-[100%] py-4  justify-center   md:min-w-full'>
+         
+    
+        <h1 className='font-bold flex text-4xl mb-5'>{details.title}</h1>
+        <div className='flex'><h2 className='mb-6 flex font-bold text-2xl'>{details.description}</h2></div>
       <div  className='flex gap-8 h-36 mb-8 items-center  justify-center text-center w-full '>
         <div className='bg-white-200 flex-col items-center  justify-center rounded-lg  mr-4 text-xl '> <div className='text-center flex items-center justify-center '><CiClock1 className='w-10 ml-4 h-8 '/></div> <h2>Active time</h2>{details.activeTime}</div>
         <div className='bg-white-200  flex-col items-center rounded-lg mr-4  text-xl'> <div className='text-center flex items-center justify-center '> <FaClock  className='w-10 h-8 ml-4'/></div><h2>Total time</h2>{details.totalTime}</div>
@@ -38,10 +40,10 @@ const [details,setDetails]=useState(RecipeData[id])
 </div>
 
 <div  style={{width:"100%" ,minheight:"900px", justifyContent:"space-around", marginTop:"20px"}} className=' flex   mt-28 flex-wrap'>
-<div  style={{width:"60%"}} className=' sm:w-full  '>
-<h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2' /> <h1 className="text-orange-400">1.STEP</h1></h2>
+<div  style={{width:"60%"}} className=' sm:w-screen  '>
+<h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2 text-orange-400' /> <h1 className="text-orange-400">1.STEP</h1></h2>
       <div className='font-normal border-solid border-black-200 border-b-2 font-bold pb-4 text-xl'> {details.steps}</div>
-      <h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2'/><h1 className="text-orange-400">2.STEP</h1></h2>
+      <h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2 text-orange-400'/><h1 className="text-orange-400">2.STEP</h1></h2>
       <div className='font-normal border-solid border-black-200  font-bold border-b-2 pb-4 text-xl'>{details.steps}</div>
       <h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2 text-orange-400' /><h1 className="text-orange-400">3.STEP</h1></h2>
       <div className='font-normal border-solid border-black-200 font-bold border-b-2 pb-4 text-xl' >{details.steps}</div>
