@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div>
-    <nav  style={{marginTop:"20px"}}className='flex flex-wrap w-[80%] h-24 justify-between items-center  mx-auto' >
+    <nav  style={{marginTop:"20px"}}className=' flex flex-wrap w-[80%] h-24 justify-between items-center   mx-auto' >
           
           <div className='flex justify-around gap-[8vw]'>
               <a href="/"><h1 className='logo text-red-500 text-2xl font-extrabold italic'>Kocina</h1></a>
