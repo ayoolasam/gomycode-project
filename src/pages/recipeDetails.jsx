@@ -8,6 +8,7 @@ import { IoPeopleOutline } from "react-icons/io5";
 import { FcRatings } from "react-icons/fc";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
+import '../pages/recipeDetails.css';
 
 
 const recipeDetails = () => {
@@ -22,10 +23,10 @@ const [details,setDetails]=useState(RecipeData[id])
         <img  style={{objectPosition:"center",objectFit:"cover"}} className="w-full  h-full   rounded-lg"src={details.image}/>
         </div>
 
-        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"20px" ,display:"flex", flexDirection:"column"}}className=' sm:flex-col sm:w-[100%] py-4  justify-center'>
+        <div  style={{width:"50%",minHeight:"600px",paddingLeft:"20px" ,display:"flex", flexDirection:"column"}}className=' hero-content sm:flex-col sm:w-[100%] py-4  justify-center'>
          
     
-        <h1 className='font-bold flex text-4xl mb-5'>{details.title}</h1>
+        <h1 className='font-bold flex text-4xl  mb-5'>{details.title}</h1>
         <div className='flex'><h2 className='mb-6 flex font-bold text-2xl'>{details.description}</h2></div>
       <div  className='flex gap-8 h-36 mb-8 items-center  justify-center text-center w-full '>
         <div className='bg-white-200 flex-col items-center  justify-center rounded-lg  mr-4 text-xl '> <div className='text-center flex items-center justify-center '><CiClock1 className='w-10 ml-4 h-8 '/></div> <h2>Active time</h2>{details.activeTime}</div>
@@ -39,8 +40,8 @@ const [details,setDetails]=useState(RecipeData[id])
 
 </div>
 
-<div  style={{width:"100%" ,minheight:"900px", justifyContent:"space-around", marginTop:"20px"}} className=' flex   mt-28 flex-wrap'>
-<div  style={{width:"60%"}} className=' sm:w-screen  '>
+<div  style={{width:"100%" ,minheight:"900px", justifyContent:"space-around", marginTop:"20px"}} className='  flex   mt-28 flex-wrap'>
+<div  style={{width:"60%"}} className=' step-Content sm:w-screen  '>
 <h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2 text-orange-400' /> <h1 className="text-orange-400">1.STEP</h1></h2>
       <div className='font-normal border-solid border-black-200 border-b-2 font-bold pb-4 text-xl'> {details.steps}</div>
       <h2 className='font-bold flex items-center mt-4'><FaCheckCircle className='mr-2 text-orange-400'/><h1 className="text-orange-400">2.STEP</h1></h2>
