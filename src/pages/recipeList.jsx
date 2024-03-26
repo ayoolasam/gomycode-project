@@ -1,6 +1,6 @@
 import React from "react";
 import RecipeListComponent from "../components/recipe/recipeComponent";
-// import RecipeSearch from "../components/recipe/SearchCategory";
+// import RecipeSearch from '../components/recipe/searchCategory'
 
 
 const RecipeList = () => {

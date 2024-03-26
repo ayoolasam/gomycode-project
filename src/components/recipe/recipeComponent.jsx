@@ -7,10 +7,11 @@ import Hero from "../hero/Hero";
 
 const RecipeListComponent = () => {
   return (
-    <div className="listContainer ">
+    <div  style={{width:"80%"}}className="listContainer ">
       {/* <RecipeSearch recipes={RecipeData} /> */}
 <Hero/>
-      <div className="grid grid-cols-3" style={{ marginTop: "80px" }}>
+
+      <div  className=" gap-5 flex flex-wrap  items-center justify-around pl-none" style={{ marginTop: "80px" }}>
         {RecipeData.map((recipe) => (
           <div key={recipe.id}>
             <Link to={`/recipe/${recipe.id}`}>
@@ -24,7 +25,7 @@ const RecipeListComponent = () => {
           </div>
         ))}
       </div>
-    </div>
+  </div>
   );
 };
 

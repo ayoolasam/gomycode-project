@@ -10,10 +10,8 @@ const Navbar = () => {
               <a href="/"><h1 className='logo text-red-500 font-extrabold'>Kocina</h1></a>
          
           <ul className='flex  items-center gap-[4vw] text-sm' >
-          <a href="/"><li className=' transition-colors ease-in delay-150 font-bold hover:text-red-500'>Recipes</li></a>
-          <a href=""><li className=' transition-colors ease-in delay-150  hover:text-red-500'>About</li></a>
-         <a href=""> <li className=' transition-colors ease-in delay-150  hover:text-red-500'>Recipe</li></a>
-         <a href=""> <li className=' transition-colors ease-in delay-150  hover:text-red-500'>Contact</li></a>
+          <a href="/"><li className=' transition-colors ease-in delay-150  text-2xl font-bold hover:text-red-500'>Home</li></a>
+         
        </ul>
           </div>
         <Link to="/profile">

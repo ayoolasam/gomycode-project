@@ -5,7 +5,7 @@ import { FaTumblr } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
+    <div style={{}} className='  md:text-center py-4 mt-4'>
 
 <>
            <div className='flex justify-between items-center w-[80%] mx-auto pt-20'>
